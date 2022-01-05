@@ -1,13 +1,13 @@
 package metrics_go
 
 import (
-	"github.com/galaxy-future/cudgx/common/logger"
-	"github.com/galaxy-future/cudgx/metrics-go/aggregate"
-	"github.com/galaxy-future/cudgx/metrics-go/internal"
-	"github.com/galaxy-future/cudgx/metrics-go/internal/monitoring"
-	"github.com/galaxy-future/cudgx/metrics-go/internal/streaming"
-	"github.com/galaxy-future/cudgx/metrics-go/types"
 	"context"
+	"github.com/galaxy-future/metrics-go/aggregate"
+	"github.com/galaxy-future/metrics-go/common/logger"
+	"github.com/galaxy-future/metrics-go/internal"
+	"github.com/galaxy-future/metrics-go/internal/monitoring"
+	"github.com/galaxy-future/metrics-go/internal/streaming"
+	"github.com/galaxy-future/metrics-go/types"
 	"go.uber.org/zap"
 )
 

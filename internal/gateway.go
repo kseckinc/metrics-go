@@ -2,10 +2,10 @@ package internal
 
 import (
 	"bytes"
-	"github.com/galaxy-future/cudgx/common/logger"
-	"github.com/galaxy-future/cudgx/common/mod"
 	"encoding/json"
 	"fmt"
+	"github.com/galaxy-future/metrics-go/common/logger"
+	"github.com/galaxy-future/metrics-go/common/mod"
 	"github.com/pkg/errors"
 	"go.uber.org/zap"
 	"google.golang.org/protobuf/proto"

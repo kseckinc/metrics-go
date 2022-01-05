@@ -1,8 +1,8 @@
 package internal
 
 import (
-	"github.com/galaxy-future/cudgx/common/logger"
-	"github.com/galaxy-future/cudgx/common/utils"
+	"github.com/galaxy-future/metrics-go/common/logger"
+	"github.com/galaxy-future/metrics-go/common/utils"
 	"os"
 	"time"
 )
